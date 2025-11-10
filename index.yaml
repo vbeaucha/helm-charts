@@ -14,8 +14,45 @@ entries:
       artifacthub.io/recommendations: |
         - url: https://prometheus.io/
     apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-11-10T14:35:34.001971+01:00"
+    description: A Helm chart for Kubelet Volume Stats Exporter - restores volume
+      metrics in Kubernetes 1.34+
+    digest: cd68cf7cba5e27867d2fbd6cb2edd1d56f9817aa66d7eecafe1d092500e69b27
+    home: https://github.com/vbeaucha/helm-charts
+    keywords:
+    - kubernetes
+    - monitoring
+    - prometheus
+    - metrics
+    - volume
+    - kubelet
+    - daemonset
+    maintainers:
+    - email: vbeaucha77@gmail.com
+      name: Valentin BEAUCHAMP
+    name: kubelet-volume-stats-exporter
+    sources:
+    - https://github.com/vbeaucha/helm-charts
+    type: application
+    urls:
+    - https://vbeaucha.github.io/helm-charts/kubelet-volume-stats-exporter-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://github.com/vbeaucha/kubelet-volume-stats-exporter/blob/main/README.md
+        - name: Kubernetes Issue #133961
+          url: https://github.com/kubernetes/kubernetes/issues/133961
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/recommendations: |
+        - url: https://prometheus.io/
+    apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-31T15:24:26.45523+01:00"
+    created: "2025-11-10T14:35:34.00133+01:00"
     description: A Helm chart for Kubelet Volume Stats Exporter - restores volume
       metrics in Kubernetes 1.34+
     digest: 2829ff87964b2ed6c2481d22db75ebbd6924ff7cdd7b4837f15d108074bb9081
@@ -38,4 +75,4 @@ entries:
     urls:
     - https://vbeaucha.github.io/helm-charts/kubelet-volume-stats-exporter-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-31T15:24:26.453395+01:00"
+generated: "2025-11-10T14:35:33.999914+01:00"
